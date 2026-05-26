@@ -5,8 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font =
-    "JetBrainsMono Nerd Font:size=12 , Noto Sans Arabic:size=16";
+static char *font = "JetBrainsMono Nerd Font:size=12";
 static int borderpx = 2;
 
 /*
@@ -20,7 +19,7 @@ static int borderpx = 2;
 static char *shell = "/bin/sh";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
-char *scroll = "scroll";
+char *scroll = NULL;
 char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 
 /* identification sequence returned in DA and DECID */
